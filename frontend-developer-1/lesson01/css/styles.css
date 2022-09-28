@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:wght@300&display=swap');
+*{ 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --txtIcRenk:#f4f8f7; /* Değişken olarak yazı rengi tanımlaması yaptık */
+    --txtYazi:#b3b6b5;
+    
+}
+body{ background: linear-gradient(to right, wheat, white); }
+
+.card {
+    width: 250px;
+    height: 450px;
+    border: dodgerblue medium solid;
+    border-radius: 4%;
+    margin: 10% auto;
+    /* box-shadow: xKoor yKoor Puslandirma Dagilma renklendirme; */
+    background-color: floralwhite;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: floralwhite;
+    border:dodgerblue solid;
+    border-radius: 7px;
+}
+
+input::placeholder, #calendar {
+    color: #b3b6b5;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+form { text-align: center; }
+
+.sign {
+    margin: 10px;
+    border: dodgerblue solid;
+    border-radius: 7px;
+    color: dodgerblue;
+    background-color: floralwhite;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: dodgerblue;
+    text-align: center;
+    line-height: 70px;
+}
