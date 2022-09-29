@@ -20,7 +20,7 @@ Reklam ajansları, yazılım firmaları vb. iş yerleri, bu meslek için çalı�
 - Photoshop
 
 2. Google Chrome Eklentisi :
-- **css piper** → (Fonts, colors, assets)
+- **css peeper** → (Fonts, colors, assets)
 
 3. Siteler :
 - [Free CSS Templates](https://www.free-css.com/free-css-templates)
