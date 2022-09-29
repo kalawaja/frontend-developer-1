@@ -1,0 +1,23 @@
+
+header{
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+header a {
+    margin-right: 20px;
+}
+
+header i {
+    letter-spacing: -2px;
+}
+
+header input { margin-left: 20px; }
+
+section {
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+}
