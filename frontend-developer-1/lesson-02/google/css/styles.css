@@ -1,13 +1,21 @@
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     height: 100px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    margin-top: 10px;
     text-align: right;
 }
 
 header a {
-    margin-right: 20px;
+    margin-right: 15px;
+    color: black; 
+    text-decoration: none;
+    font-size: 13px;
 }
 
 header i {
@@ -17,7 +25,134 @@ header i {
 header input { margin-left: 20px; }
 
 section {
-    height: 500px;
-    width: 70%;
-    margin: 0 auto;
+    text-align: center;
 }
+
+.logo img {
+    width: 272px;
+    height: 92px;
+}
+
+#text {
+    margin: 30px auto;
+    width: 35%;
+    padding: 0 50px;
+    height: 39px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.text::before {
+    margin: 30px auto;
+    content: "🔍";
+    position: absolute;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.text::after {
+    margin: 30px auto;
+    content: "🎙";
+    position: absolute;
+    margin-left: -40px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button {
+    background-color: #f8f9fa; 
+    border: none;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    height: 36px;
+}
+
+.button-0 {
+    background-color: white;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.button-0:hover {
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.button-1 {
+    background-color: #4285F4;
+    border: none;
+    color: white;
+    font-size: 14px;
+    width: 6%;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.button-2 {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+.button-2:hover {
+    border: 1px solid #ccc;
+}
+
+.lang {
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #70757a;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    font-size: 15px;
+}
+.alt {
+    padding: 16px 2%;
+}
+
+hr {
+    border: 0.1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.alt p {
+    margin: 0;
+    padding: 0;
+}
+
+.alt a {
+    color: #70757a; 
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.alt a:hover, 
+header a:hover {
+    text-decoration: underline;
+}
+
+.alt-right {
+    margin-bottom: 15px;
+}
+
+.alt-left a {
+    float: left;
+    margin-right: 30px;
+}
+
+.alt-right a {
+    float: right;
+    margin-left: 30px;
+}
+
