@@ -1,0 +1,83 @@
+body {
+    background-color: antiquewhite;
+}
+
+html {
+    scroll-behavior: smooth;  /* Access to the ids in the page is provided with a smoother transition. */
+}
+
+.it-logo {
+    filter: grayscale(5%); /* Gri Tonlu Renkler */
+    filter: blur(0.5px);
+}
+
+.image-about {
+    margin-left: 300px;
+    min-width: 220px; 
+    filter: sepia(50%);
+    filter: drop-shadow(16px 16px 20px red) invert(80%);  /* Görsel Arkaplan Golgeli olarak Ayarlıyoruz */
+}
+
+.texts {
+    float: right;
+    text-align: center;
+    width: 50%;
+    min-width: 220px;
+}
+
+.color-date {
+    text-align: center;
+    float: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+b { text-shadow: 2px 2px 5px black; } /* Metin Gölgesi Ekliyoruz */
+
+#preformat {
+    float: right;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+section img {
+    float: left;
+    margin: 0 20px;
+    border-radius: 20px; 
+    filter: grayscale(100%);
+    transition: all .4s;
+}
+
+section img:hover {
+    border-top: thin dashed black;  /* border: kalınlık türü rengi */
+    border-bottom: medium double brown;
+    filter: none;
+    transition: all .4s;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;    
+}
+
+figure img { margin-bottom: 10px; }
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 2px;
+    text-align: center;
+}
