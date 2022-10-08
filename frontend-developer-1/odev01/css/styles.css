@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1em;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background-image: url(../assets/menu-arkasi.jpg);
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+.menu {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.menu li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  width: 60%;
+}
+
+#dashed-line {
+  border-right: 1.2px dashed white;
+}
+
+main {
+  background-image: url(../assets/orta-arka.jpg);
+  padding-top: 20px;
+}
+
+main section {
+  align-items: center;
+}
+
+section img {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.wrap-text {
+  background-image: url(../assets/duyurular_1.png);
+  width: 60%;
+  height: 60%;
+  margin: 20px auto;
+}
+
+h6 {
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#border-line {
+  border-bottom: 2px solid rgb(40, 154, 103);
+  box-shadow: 20px rgb(40, 154, 103);
+}
+
+details {
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+details p {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+summary {
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.four-photo {
+  width: 60%;
+  display: flex;
+  margin: 20px auto;
+}
+
+.four-photo img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.white-back {
+  background-color: white;
+}
+
+.child-1, .child-2, .child-3, .child-4 {
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.white-back h6, p {
+  padding: 10px 20px;
+}
+
+.white-back a {
+  text-decoration: none;
+  color: tomato;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.strong-h {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.white-back p {
+  font-size: 0.8em;
+}
+
+footer {
+  background-image: url(../assets/enalt.png);
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  font-size: 0.8em;
+  color: gray;
+}
+
+footer a img {
+  height: 16px;
+  width: 16px;
+}
