@@ -1,0 +1,66 @@
+
+* {
+    /*tek sayfada görüntülemek için*/
+    box-sizing: border-box;
+}
+
+details {
+    margin: 10px;
+    padding: 10px;
+}
+summary {
+    padding: 1em;
+    background-color: beige;
+    list-style-type: "→  ";
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details p, ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #6be5c4, #e1fff1);
+}
+details[open] summary {  
+    /* seçilen etiketin özelliğine erişmek için kullanılır*/
+    list-style-type: "↓  ";
+    background-color: #99f2c8;
+    transition: all .5s ease-out;
+    list-style-image: none;
+}
+.container {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+}
+#menu { 
+    display: contents;
+    max-width: 30vw ;
+    margin: 0 auto;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #333;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* 
+        yazılan paragraf kutu içerisine sığma veya sığmama durumu: 
+        scroll: kaydırma çubukları aktif
+        hidden: paragraf maxheight kadar olur ve paragrafa sığmayanlar gösterilmez
+        visible: paragraf yüksekliği önemsenmeden tüm metni gösterir
+        auto: sadece dikey scroll aktif
+    */
+}
+
+p img {
+    border-radius: 10px;
+    max-width: 40vh;
+    max-height: 60vh;
+}
