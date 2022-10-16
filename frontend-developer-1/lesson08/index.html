@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Etiketleri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="kisisel">
+        <label for="metin">Ad Soyad Bilgileriniz</label>
+        <input type="text" name="metin" placeholder="Ad Soyad" autofocus id="metin"> 
+        <label for="eposta">E-Posta Adresi</label>
+        <input type="email" name="metin"  id="eposta"> <br>
+        <label for="parola">Parola Girin</label>
+        <input type="text" name="metin"  id="parola"> <br>
+        <label for="telno">Telefon Bilgisi</label>
+        <input type="tel" name="metin"  id="telno"> <br>
+        <label for="mesaj">Mesajınız</label><br>
+        <textarea name="" placeholder="Mesajınızı Yazın" id="mesaj"></textarea>
+        <br><br>
+        <input type="submit" value="Gönder">
+    </form>
+    <br><br>
+    <form>
+        <fieldset>
+            <legend>Bilgisayar Bilgileri</legend>
+            <label for="web"><input type="checkbox" checked name="" id="web">Web Tasarım</label>
+            <label for="python"><input type="checkbox" name="" id="python">Python</label>
+            <label for="csharp"><input type="checkbox" name="" id="csharp">C#</label>
+            <label for="java"><input type="checkbox" name="" id="java">Java</label>
+            <label for="android"><input type="checkbox" name="" id="android">Android</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend> İlgilendiğiniz Yazılım </legend>
+            <label for="web2"><input type="radio" name="r1" id="web2">Web Tasarım</label>
+            <label for="python2"><input type="radio" name="r1" id="python2">python</label>
+            <label for="csharp2"><input type="radio" name="r1" id="csharp2">C#</label>
+            <label for="java2"><input type="radio" name="r1" id="java2">Java</label>
+            <label for="android2"><input type="radio" name="r1" id="android2">Android</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Listeden Seçim Yapınız</legend>
+            <select name="iller" id="iller">
+                <option>--Seciniz--</option>
+                <option>Ankara</option>
+                <option>İstanbul</option>
+                <option>Diyarbakır</option>
+                <option>Samsun</option>
+                <option>Antalya</option>
+
+            </select>&emsp;
+            <select name="" id="">
+                <optgroup label="Sosyal Dersler">
+                    <option value="">Tarih</option>
+                    <option value="">Coğrafya</option>
+                </optgroup>
+                
+                <optgroup label="Fen Bilimleri">
+                    <option value="">Fizik</option>
+                    <option value="">Kimya</option>
+                    <option value="">Biyoloji</option>
+                </optgroup>
+            </select>&emsp;&emsp;
+            
+            <!-- Search box yapımı -->
+            <label for="tarayici">Hangi Web Tarayıcısını Tercih Edersiniz</label>
+            <input list="tarayicilar" id="tarayici">
+            <datalist id="tarayicilar">
+                <option value="Google">Chrome</option>
+                <option value="Mozilla">Mozilla</option>
+                <option value="ios">Safari</option>
+                <option value="Microsoft">Microsoft Edge</option>
+                <option value="Opera">Opera</option>
+            </datalist>
+        </fieldset>
+    </form>
+
+
+
+</body>
+</html>
