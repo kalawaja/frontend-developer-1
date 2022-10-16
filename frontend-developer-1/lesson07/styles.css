@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(60deg, #e1eec3, #f05053); 
+}
+
+.container {
+    width: 90%;
+}
+.box { 
+    border: 1px solid;
+    padding: 5px;
+ }
+
+.box > img { filter: sepia(80%); }
+#sticky {
+    position: sticky;
+    margin: 20px auto;
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    border: medium outset red ;
+    top: 20px;
+    z-index: 100;
+    background-color: aqua;
+}
+h2 { 
+    margin: -8px;
+    background-color: darkgray;
+    width: 100vw;
+    padding: 5px;
+    font-family: cursive;
+ }
+ .ust, .wp {
+    position: fixed;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    border-radius: 100%;
+    
+ }
+ .ust {
+    background-color: blue;
+    left: 20px;
+ }
+ .ust a, .wp a {
+    color: white; text-decoration: none;
+ }
+ .wp {
+    background-color: #128c7e;
+    right: 20px;
+ }
+ html { scroll-behavior: smooth; } /* Yumuşak geçişli en üste konumlan */
+
+article {
+    right: 0;
+    position: fixed;
+    top: 40%;
+}
+article li {
+    height: 35px;
+    width: 100px;
+    background-color: #e1eec3;
+    margin: 10px;
+    line-height: 35px;
+    padding-left:10px ;
+    list-style: none;
+    border-radius: 5px;
+    margin-right: -75px;
+    transition:all .5s ease;
+    margin-left: 80px;
+}
+article li a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+}
+article li:hover{
+    margin-left: 10px;
+    
+}
+
+
+
